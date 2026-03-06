@@ -1,5 +1,5 @@
 .images_ {
-  background-image: url(../image/dandelion.png); 
+  background-image: url("../image/dandelion.png"); 
   width: 805px;
   height: 697px;
   top: -0px;
@@ -157,6 +157,7 @@
   letter-spacing: 0%;
   color: rgba(81, 80, 118, 1);
 }
+
 .product-card_price2 {
   width: 73px;
   height: 24px;
@@ -434,7 +435,7 @@
   box-sizing: border-box 
 }
 
-  .product-card__img-gift-set1 {
+.product-card__img-gift-set1 {
   width: 290px;
   height: 245px;
 }
@@ -635,7 +636,7 @@
     color: rgba(81, 80, 118, 1);
 }
 
-  .item3__gift-set2 {
+.item3__gift-set2 {
   width: 41px;
   height: 18px;
   color: rgba(81, 80, 118, 1);
