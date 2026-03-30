@@ -42,8 +42,4 @@ heading.addEventListener("mouseover", () => {
 const targetButton = document.getElementById("targetButton");
 targetButton.addEventListener("click", () => {
   targetButton.classList.toggle('red-bg');
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> aed0ea57fab6382420a091ce6399018d3ec8c38a
