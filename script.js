@@ -6,7 +6,7 @@ const blueHashColor = "#0000ff";
 recolorFirstCardButton.addEventListener("click", () => {
   firstProductCard.style.backgroundColor = blueHashColor;
 });
-/* замена фона всех карточек */
+// замена фона всех карточек */
 const greenHashColor = "#00ff44";
 const productCards = document.querySelectorAll(".product-card");
 const recolorAllCardButton = document.getElementById("btn-cards");
@@ -27,7 +27,7 @@ function openGoogle() {
   if (answer === true) {
     window.open("https://google.com");
   } else {
-    console.log("Пользователь отменил переход на Google");
+   console.log("Пользователь отменил переход на Google");
   }
 }
 
@@ -41,5 +41,6 @@ heading.addEventListener("mouseover", () => {
 /* кнопка перекрашивается */
 const targetButton = document.getElementById("targetButton");
 targetButton.addEventListener("click", () => {
-  targetButton.classList.toggle('red-bg');
+  targetButton.classList.toggle("red-bg");
 });
+

@@ -686,9 +686,10 @@
 }
 
 #targetButton {
-  background-color: #00ff51;
+  background-color: #00ff22;
 }
 
-.red-bg {
-  background-color: #ff0000 !important;
+.red-bg{ 
+  background-color: #ff0000 !important
 }
+
