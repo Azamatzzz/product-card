@@ -19,8 +19,8 @@ const car = {
 car.owner = myData 
 console.log(car)
 //№5 функция принимает объект описаный в задание №4 проверяет есть ли в объекте свойство "максимальная скорость"
-const CheckmaxSpeed = (car1) => {
-  if (!("maxSpeed" in car1)) {
+const CheckmaxSpeed = (car) => {
+  if (!("maxSpeed" in car)) {
     car.maxSpeed = 240
   }
 }
@@ -94,3 +94,6 @@ const rareMarkedBooks = allBooks.map(function (book) {
   };
 })
 console.log(rareMarkedBooks)
+
+const neaArrsy = allBooks.find (book => book.author === "Мухаммад ибн Абдуль-Ваххаб", )
+console.log(neaArrsy)
