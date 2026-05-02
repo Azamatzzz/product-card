@@ -1,11 +1,11 @@
 /* замена фона первой карточки */
-const recolorFirstCardButton = document.getElementById("btn-card-first");
-const firstProductCard = document.querySelector(".product-card");
-const blueHashColor = "#0000ff";
+// const recolorFirstCardButton = document.getElementById("btn-card-first");
+// const firstProductCard = document.querySelector(".product-card");
+// const blueHashColor = "#0000ff";
 
-recolorFirstCardButton.addEventListener("click", () => {
-  firstProductCard.style.backgroundColor = blueHashColor;
-});
+// recolorFirstCardButton.addEventListener("click", () => {
+//   firstProductCard.style.backgroundColor = blueHashColor;
+// });
 // замена фона всех карточек */
 const greenHashColor = "#00ff44";
 const productCards = document.querySelectorAll(".product-card");
