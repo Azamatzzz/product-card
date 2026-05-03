@@ -1,5 +1,5 @@
 import { productCards } from "./array.js";
-//задание 4 получить массив объектов, где ключем является название продукта, а значением - его описание
+// Задание 4 получить массив объектов, где ключем является название продукта, а значением - его описание
 const catalogData = productCards.reduce((acc, product) => {
   acc[product.name] = product.description;
   return acc;
